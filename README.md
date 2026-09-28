@@ -67,7 +67,10 @@ Bus voltages, generation, loads and branch power flows from the ETAP load flow r
 The complete report is available as a PDF: [report/ETAP_Grid_Connected_Plant_Analysis.pdf](report/ETAP_Grid_Connected_Plant_Analysis.pdf)
 
 ## My role
-[Write your own contribution here, for example: "Built the single-line diagrams and ran the load flow study in ETAP."]
+Modelled the complete grid-connected plant in ETAP — built the single-line diagrams across all three voltage sections (220 kV/30 kV/11 kV), configured transformer, cable, motor, and load parameters, ran the load flow study, and compiled the equipment input data, loading, loss, and alert reports into the final analysis.
+
+## Tools
+ETAP 19.0.1C
 
 ## Team
 Muhammad Shahzaib, Muhammad Ali, Muhammad Hamza Nasir (Air University, Islamabad)
