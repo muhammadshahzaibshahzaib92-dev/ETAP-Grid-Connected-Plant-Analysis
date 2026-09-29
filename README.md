@@ -70,7 +70,7 @@ The complete report is available as a PDF: [ETAP_Grid_Connected_Plant_Analysis.p
 Modelled the complete grid-connected plant in ETAP — built the single-line diagrams across all three voltage sections (220 kV/30 kV/11 kV), configured transformer, cable, motor, and load parameters, ran the load flow study, and compiled the equipment input data, loading, loss, and alert reports into the final analysis.
 
 ## Team
-Muhammad Shahzaib, Muhammad Ali, Muhammad Hamza Nasir (Air University, Islamabad)
+Muhammad Shahzaib, Muhammad Ali, Muhammad Hamza Nasir (Islamabad Electric Supply Company)
 
 ## Tools
 ETAP 19.0.1C
