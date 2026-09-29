@@ -32,45 +32,42 @@ A grid-connected plant modelled in ETAP: a 220 kV grid source feeds a 30 kV netw
 ### 1. Design of schematics (single-line diagrams)
 Part (a): 220 kV grid and the two 63 MVA power transformers. Part (b): 30 kV network with cables and the 20 MVA transformers.
 
-![Schematics a and b](images/01_single_line_diagrams_a_b.png)
+![Schematics a and b](01_single_line_diagrams_a_b.png)
 
 Part (c): 11 kV bus, 11/1 kV transformers, chargers and inverters, capacitor bank and the motor feeder.
 
-![Schematic c](images/02_single_line_diagram_c.png)
+![Schematic c](02_single_line_diagram_c.png)
 
 ### 2. Use of induction motors
 Induction motor equivalent circuit parameters and the torque, current and power factor curves against slip.
 
-![Induction motors](images/03_induction_motor_and_curves.png)
+![Induction motors](03_induction_motor_and_curves.png)
 
 ### 3. Load flow analysis
 Bus voltages, generation, loads and branch power flows from the ETAP load flow report.
 
-![Load flow report](images/04_load_flow_report.png)
+![Load flow report](04_load_flow_report.png)
 
 ### 4. Two-winding transformer input data and 5. Branch losses summary
-![Transformer data and branch losses](images/05_transformer_data_and_branch_losses.png)
+![Transformer data and branch losses](05_transformer_data_and_branch_losses.png)
 
 ### 6. Bus loading summary, 7. Branch connections, 8. Adjustments
-![Bus loading, branch connections, adjustments](images/06_bus_loading_branch_connections_adjustments.png)
+![Bus loading, branch connections, adjustments](06_bus_loading_branch_connections_adjustments.png)
 
 ### 9. Bus input data
-![Bus input data](images/07_bus_input_data.png)
+![Bus input data](07_bus_input_data.png)
 
 ### 10. Line/cable/busway input data and 11. Alert summary
-![Cable data and alert summary](images/08_cable_data_and_alert_summary.png)
+![Cable data and alert summary](08_cable_data_and_alert_summary.png)
 
 ### 12. Critical report and 13. Branch loading summary
-![Critical and branch loading reports](images/09_critical_and_branch_loading_reports.png)
+![Critical and branch loading reports](09_critical_and_branch_loading_reports.png)
 
 ## Full report
-The complete report is available as a PDF: [report/ETAP_Grid_Connected_Plant_Analysis.pdf](report/ETAP_Grid_Connected_Plant_Analysis.pdf)
+The complete report is available as a PDF: [ETAP_Grid_Connected_Plant_Analysis.pdf](ETAP_Grid_Connected_Plant_Analysis.pdf)
 
 ## My role
 Modelled the complete grid-connected plant in ETAP — built the single-line diagrams across all three voltage sections (220 kV/30 kV/11 kV), configured transformer, cable, motor, and load parameters, ran the load flow study, and compiled the equipment input data, loading, loss, and alert reports into the final analysis.
-
-## Tools
-ETAP 19.0.1C
 
 ## Team
 Muhammad Shahzaib, Muhammad Ali, Muhammad Hamza Nasir (Air University, Islamabad)
